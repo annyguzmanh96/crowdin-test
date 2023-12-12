@@ -23,6 +23,8 @@ const App = () => {
     i18n.changeLanguage(event.target.value);
     setCount((previousCount) => previousCount + 1);
   };
+
+  console.log(count);
   return (
     <Suspense fallback={"Loading..."}>
       <div className="App">
@@ -35,9 +37,9 @@ const App = () => {
           </p>
           <p>{t("Cambios", { count })}</p>
           <select name="language" onChange={onChange}>
-            <option value="fr">Español</option>
+            <option value="es">Español</option>
             <option value="en">Inglés</option>
-            <option value="en">Francés</option>
+            <option value="fr">Francés</option>
           </select>
         </header>
       </div>
