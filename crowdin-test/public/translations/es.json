@@ -1,0 +1,6 @@
+{
+  "Bienvenido": "Bienvenido",
+  "Texto ejemplo": "Texto <bold><italic>ejemplo</italic></bold>.",
+  "Cambios_uno": "Tú has cambiado el idioma {{count}} vez",
+  "Cambios_otro": "Tú has cambiado el idioma {{count}} veces"
+}
